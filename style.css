@@ -18,8 +18,11 @@
 }
 
 @media (max-width:768px) {
-  .img-matrix-link-info { text-align: center;
+  
+  .img-matrix-link-info { 
+    text-align: center;
   }
+
 }
 .centered-wrapper {
   display: block;
