@@ -6,40 +6,40 @@
     <link rel="stylesheet" href="style.css"  media="screen" charset="utf-8">
   </head>
   <body class="body">
-    <div class="img-matrix-link-info">
+    <aside class="img-matrix-link-info">
       <img class="img-matrix" src="./eisenhower-matrix.jpg">
       <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details ?</a>
-    </div>
-    <div class="centered-wrapper">
-      <p id="adding-elem-to-list">
+    </aside>
+    <article class="centered-wrapper">
+      <section id="adding-elem-to-list">
         <label class="lable-new-task" for="new-task">Add Item</label>
         <div class="task-row-wrapper">
           <input id="new-task" class="task task-text" type="text">
           <button class="btn">Add</button>
         </div>
-      </p>
+      </section>
       <h3 class="title">Todo</h3>
-        <ul id="incomplete-tasks">
-          <li class="incomplete-tasks-list">
+        <section id="incomplete-tasks">
+          <div class="incomplete-tasks-list">
             <input class="checkbox" type="checkbox">
             <label class="task task-lable">Pay Bills</label>
             <input type="text" class="task task-text">
             <button class="edit btn">Edit</button>
             <button class="delete btn">
               <img class="btn-del-img" src="./remove.svg"></button>
-          </li>
-          <li class="edit-mode incomplete-tasks-list">
+          </div>
+          <div class="edit-mode incomplete-tasks-list">
             <input class="checkbox" type="checkbox">
             <label class="task task-lable">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task task-text">
             <button class="edit btn">Save</button>
             <button class="delete btn">
               <img class="btn-del-img" src="./remove.svg"></button>
-          </li>
-        </ul>
+            </div>
+        </section>
         <h3 class="title">Completed</h3>
-        <ul id="completed-tasks">
-          <li class="incomplete-tasks-list">
+        <section id="completed-tasks">
+          <div class="incomplete-tasks-list">
             <input class="checkbox" type="checkbox" checked>
             <label class="task task-lable">See the Doctor</label>
             <input type="text" class="task task-text">
@@ -47,9 +47,9 @@
             <button class="delete btn">
               <img class="btn-del-img" src="./remove.svg">
             </button>
-          </li>
-        </ul>
-    </div>
+          </div>
+        </section>
+    </article>
     <script src="app.js"></script>
   </body>
 </html>
