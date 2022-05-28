@@ -4,6 +4,7 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .img-matrix-link-info {
   width: 500px;
   margin: 0 auto;
@@ -13,7 +14,8 @@
 .img-matrix{
   width: 100%;
 }
-.img-matrix-link-info .more-inf {
+.img-matrix-link-info 
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -41,10 +43,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+ h3 {
   list-style:none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 .btn {
@@ -60,7 +64,8 @@ input,button{
   color: #3a3a3a;
 }
 /* Heading */
-.title,.lable-new-task {
+.title,
+.lable-new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -130,21 +135,28 @@ input,button{
 }
 
 /* Completed */
+#completed-tasks 
 .task-lable {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-#incomplete-tasks .incomplete-tasks-list .task-text {
+#completed-tasks 
+.incomplete-tasks-list 
+.task-text {
   display: none;
 }
 
-#incomplete-tasks .incomplete-tasks-list.edit-mode .task-text {
+#completed-tasks 
+.incomplete-tasks-list.edit-mode 
+.task-text {
   display: inline-block;
   width: 224px;
 }
 
-#incomplete-tasks .incomplete-tasks-list.edit-mode .task-lable {
-  display:none;
+#completed-tasks 
+.incomplete-tasks-list.edit-mode 
+.task-lable {
+  display: none;
 }
