@@ -33,7 +33,7 @@ var createNewTaskElement=function(taskString){
     var deleteButtonImg=document.createElement("img");//delete button image
 
     label.innerText=taskString;
-    label.classList.add("lable", 'lable--size');;
+    label.classList.add("task__lable", 'task__lable--size');;
 
     //Each elements, needs appending
     checkBox.type="checkbox";

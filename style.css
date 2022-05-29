@@ -80,7 +80,7 @@ button {
   margin: 0 auto 0;
 }
 
-.input {
+.task__input {
   font-size: 18px;
   line-height: 18px;
   background: #fff;
@@ -88,7 +88,7 @@ button {
   color: #888;
 }
 
-.input--size {
+.task__input--size {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -99,7 +99,7 @@ button {
   border-radius: 6px;
 }
 
-.input--focus:focus {
+.task__input--focus:focus {
   color: #333;
 }
 
@@ -127,7 +127,7 @@ button {
   margin: 0 10px;
 }
 
-.lable--size {
+.task__lable--size {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -149,7 +149,7 @@ button {
 
 /* Completed */
 #completed-tasks
-.lable {
+.task__lable {
   text-decoration: line-through;
   color: #888;
 }
@@ -161,12 +161,12 @@ button {
 }
 
 .task.edit-mode 
-.input {
+.task__input {
   display: inline-block;
   width: 224px;
 }
 
 .task.edit-mode 
-.lable {
+.task__lable {
   display: none;
 }
